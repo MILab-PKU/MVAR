@@ -1,0 +1,35 @@
+model {
+  file: "model.sdf"
+}
+name: "50_BLOCKS"
+description: "50 BLOCKS\nContains 36 natural blocks and 14 color blocks. ?The set reinforces creativity, expands children\357\277\275s thinking ability, and stimulates their imagination."
+version: 1
+authors {
+  name: "Google"
+  email: "scanned-objects@google.com"
+}
+legal {
+  copyright: "Copyright 2020 Google LLC."
+  license: "Creative Commons Attribution 4.0 International"
+}
+annotations {
+  key: "brand"
+  value: "PlanToys"
+}
+annotations {
+  key: "mpn"
+  value: "5535"
+}
+annotations {
+  key: "sku"
+  value: "0553500"
+}
+compatibilities {
+  name: "Gazebo"
+  version {
+    major: 11
+  }
+}
+categories {
+  first: "Toys"
+}

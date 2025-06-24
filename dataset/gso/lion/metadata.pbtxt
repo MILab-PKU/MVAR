@@ -1,0 +1,35 @@
+model {
+  file: "model.sdf"
+}
+name: "Schleich_Lion_Action_Figure"
+description: "Schleich Lion Action Figure"
+version: 1
+authors {
+  name: "Google"
+  email: "scanned-objects@google.com"
+}
+legal {
+  copyright: "Copyright 2020 Google LLC."
+  license: "Creative Commons Attribution 4.0 International"
+}
+annotations {
+  key: "brand"
+  value: "Schleich"
+}
+annotations {
+  key: "gtin"
+  value: "00658183147267"
+}
+annotations {
+  key: "sku"
+  value: "00658183147267"
+}
+compatibilities {
+  name: "Gazebo"
+  version {
+    major: 11
+  }
+}
+categories {
+  first: "Action Figures"
+}

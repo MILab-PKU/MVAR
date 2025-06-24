@@ -1,0 +1,35 @@
+model {
+  file: "model.sdf"
+}
+name: "Marc_Anthony_Skip_Professional_Oil_of_Morocco_Conditioner_with_Argan_Oil"
+description: "Marc Anthony Skip Professional Oil of Morocco Conditioner with Argan Oil"
+version: 1
+authors {
+  name: "Google"
+  email: "scanned-objects@google.com"
+}
+legal {
+  copyright: "Copyright 2020 Google LLC."
+  license: "Creative Commons Attribution 4.0 International"
+}
+annotations {
+  key: "brand"
+  value: "Marc"
+}
+annotations {
+  key: "gtin"
+  value: "00621732300024"
+}
+annotations {
+  key: "sku"
+  value: "00621732300024"
+}
+compatibilities {
+  name: "Gazebo"
+  version {
+    major: 11
+  }
+}
+categories {
+  first: "Bottles and Cans and Cups"
+}

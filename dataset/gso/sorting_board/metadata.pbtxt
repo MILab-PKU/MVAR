@@ -1,0 +1,35 @@
+model {
+  file: "model.sdf"
+}
+name: "GEOMETRIC_SORTING_BOARD"
+description: "GEOMETRIC SORTING BOARD\nA set of four geometric shapes which can be stacked together according to the number of holes in the middle of each one."
+version: 1
+authors {
+  name: "Google"
+  email: "scanned-objects@google.com"
+}
+legal {
+  copyright: "Copyright 2020 Google LLC."
+  license: "Creative Commons Attribution 4.0 International"
+}
+annotations {
+  key: "brand"
+  value: "PlanToys"
+}
+annotations {
+  key: "mpn"
+  value: "2403"
+}
+annotations {
+  key: "sku"
+  value: "0240303"
+}
+compatibilities {
+  name: "Gazebo"
+  version {
+    major: 11
+  }
+}
+categories {
+  first: "Toys"
+}

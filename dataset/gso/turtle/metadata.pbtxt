@@ -1,0 +1,34 @@
+model {
+  file: "model.sdf"
+}
+name: "Vtech_Roll_Learn_Turtle"
+description: "Vtech Roll & Learn Turtle"
+version: 1
+authors {
+  name: "Google"
+  email: "scanned-objects@google.com"
+}
+legal {
+  copyright: "Copyright 2020 Google LLC."
+  license: "Creative Commons Attribution 4.0 International"
+}
+annotations {
+  key: "brand"
+  value: "Vtech"
+}
+annotations {
+  key: "gtin"
+  value: "3417761431009"
+}
+annotations {
+  key: "sku"
+  value: "3417761431009"
+}
+compatibilities {
+  name: "Gazebo"
+  version {
+    major: 11
+  }
+}
+categories {
+}

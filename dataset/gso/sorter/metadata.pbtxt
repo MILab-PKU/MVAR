@@ -1,0 +1,35 @@
+model {
+  file: "model.sdf"
+}
+name: "Poppin_File_Sorter_Blue"
+description: "Poppin File Sorter, Blue"
+version: 1
+authors {
+  name: "Google"
+  email: "scanned-objects@google.com"
+}
+legal {
+  copyright: "Copyright 2020 Google LLC."
+  license: "Creative Commons Attribution 4.0 International"
+}
+annotations {
+  key: "brand"
+  value: "Poppin"
+}
+annotations {
+  key: "gtin"
+  value: "00846680026455"
+}
+annotations {
+  key: "sku"
+  value: "00846680026455"
+}
+compatibilities {
+  name: "Gazebo"
+  version {
+    major: 11
+  }
+}
+categories {
+  first: "Consumer Goods"
+}

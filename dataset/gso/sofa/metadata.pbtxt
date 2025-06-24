@@ -1,0 +1,35 @@
+model {
+  file: "model.sdf"
+}
+name: "3D_Dollhouse_Sofa"
+description: "3D Dollhouse Sofa"
+version: 1
+authors {
+  name: "Google"
+  email: "scanned-objects@google.com"
+}
+legal {
+  copyright: "Copyright 2020 Google LLC."
+  license: "Creative Commons Attribution 4.0 International"
+}
+annotations {
+  key: "brand"
+  value: "3D Dollhouse"
+}
+annotations {
+  key: "mpn"
+  value: "3dsofa"
+}
+annotations {
+  key: "sku"
+  value: "3DSOFA"
+}
+compatibilities {
+  name: "Gazebo"
+  version {
+    major: 11
+  }
+}
+categories {
+  first: "Toys"
+}

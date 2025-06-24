@@ -1,0 +1,35 @@
+model {
+  file: "model.sdf"
+}
+name: "Perricone_MD_Hypoallergenic_Firming_Eye_Cream_05_oz"
+description: "Perricone MD Hypoallergenic Firming Eye Cream 0.5 oz"
+version: 1
+authors {
+  name: "Google"
+  email: "scanned-objects@google.com"
+}
+legal {
+  copyright: "Copyright 2020 Google LLC."
+  license: "Creative Commons Attribution 4.0 International"
+}
+annotations {
+  key: "brand"
+  value: "Perricone MD"
+}
+annotations {
+  key: "gtin"
+  value: "00651473580409"
+}
+annotations {
+  key: "sku"
+  value: "00651473580409"
+}
+compatibilities {
+  name: "Gazebo"
+  version {
+    major: 11
+  }
+}
+categories {
+  first: "Consumer Goods"
+}

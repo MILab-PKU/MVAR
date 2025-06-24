@@ -1,0 +1,35 @@
+model {
+  file: "model.sdf"
+}
+name: "Cole_Hardware_School_Bell_Solid_Brass_38"
+description: "Cole Hardware School Bell, Solid Brass, 3/8\""
+version: 1
+authors {
+  name: "Google"
+  email: "scanned-objects@google.com"
+}
+legal {
+  copyright: "Copyright 2020 Google LLC."
+  license: "Creative Commons Attribution 4.0 International"
+}
+annotations {
+  key: "brand"
+  value: "Cole Hardware"
+}
+annotations {
+  key: "gtin"
+  value: "00032885201012"
+}
+annotations {
+  key: "sku"
+  value: "00032885201012"
+}
+compatibilities {
+  name: "Gazebo"
+  version {
+    major: 11
+  }
+}
+categories {
+  first: "Consumer Goods"
+}

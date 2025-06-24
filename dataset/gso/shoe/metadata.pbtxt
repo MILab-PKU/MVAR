@@ -1,0 +1,39 @@
+model {
+  file: "model.sdf"
+}
+name: "Womens_Canvas_Bahama_in_Black"
+description: "Women\'s Canvas Bahama in Black\nWomen\'s Canvas Bahama"
+version: 1
+authors {
+  name: "Google"
+  email: "scanned-objects@google.com"
+}
+legal {
+  copyright: "Copyright 2020 Google LLC."
+  license: "Creative Commons Attribution 4.0 International"
+}
+annotations {
+  key: "brand"
+  value: "Sperry Top-Sider"
+}
+annotations {
+  key: "gtin"
+  value: "044211969459"
+}
+annotations {
+  key: "mpn"
+  value: "9447145"
+}
+annotations {
+  key: "sku"
+  value: "CanvasBahamaWS1101-5"
+}
+compatibilities {
+  name: "Gazebo"
+  version {
+    major: 11
+  }
+}
+categories {
+  first: "Shoe"
+}

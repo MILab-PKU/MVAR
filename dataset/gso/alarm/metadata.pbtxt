@@ -1,0 +1,35 @@
+model {
+  file: "model.sdf"
+}
+name: "Crosley_Alarm_Clock_Vintage_Metal"
+description: "Crosley Alarm Clock, Vintage Metal"
+version: 1
+authors {
+  name: "Google"
+  email: "scanned-objects@google.com"
+}
+legal {
+  copyright: "Copyright 2020 Google LLC."
+  license: "Creative Commons Attribution 4.0 International"
+}
+annotations {
+  key: "brand"
+  value: "Crosley"
+}
+annotations {
+  key: "gtin"
+  value: "04897017373496"
+}
+annotations {
+  key: "sku"
+  value: "04897017373496"
+}
+compatibilities {
+  name: "Gazebo"
+  version {
+    major: 11
+  }
+}
+categories {
+  first: "Consumer Goods"
+}

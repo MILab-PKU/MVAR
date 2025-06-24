@@ -1,0 +1,34 @@
+model {
+  file: "model.sdf"
+}
+name: "Threshold_Porcelain_Teapot_White"
+description: "Threshold Porcelain Teapot, White"
+version: 1
+authors {
+  name: "Google"
+  email: "scanned-objects@google.com"
+}
+legal {
+  copyright: "Copyright 2020 Google LLC."
+  license: "Creative Commons Attribution 4.0 International"
+}
+annotations {
+  key: "brand"
+  value: "Threshold"
+}
+annotations {
+  key: "gtin"
+  value: "00727870053911"
+}
+annotations {
+  key: "sku"
+  value: "00727870053911"
+}
+compatibilities {
+  name: "Gazebo"
+  version {
+    major: 11
+  }
+}
+categories {
+}

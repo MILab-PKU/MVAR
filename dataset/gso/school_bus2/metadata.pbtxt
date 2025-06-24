@@ -1,0 +1,36 @@
+model {
+  file: "model.sdf"
+}
+name: "Sonny_School_Bus"
+description: "Sonny School Bus"
+version: 1
+authors {
+  name: "Google"
+  email: "scanned-objects@google.com"
+}
+legal {
+  copyright: "Copyright 2020 Google LLC."
+  license: "Creative Commons Attribution 4.0 International"
+}
+annotations {
+  key: "brand"
+  value: "Mega Brands"
+}
+annotations {
+  key: "gtin"
+  value: "065541804104"
+}
+annotations {
+  key: "mpn"
+  value: "80410"
+}
+annotations {
+  key: "sku"
+  value: "G223"
+}
+compatibilities {
+  name: "Gazebo"
+  version {
+    major: 11
+  }
+}

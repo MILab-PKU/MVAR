@@ -1,0 +1,35 @@
+model {
+  file: "model.sdf"
+}
+name: "Nintendo_Mario_Action_Figure"
+description: "Nintendo Mario Action Figure"
+version: 1
+authors {
+  name: "Google"
+  email: "scanned-objects@google.com"
+}
+legal {
+  copyright: "Copyright 2020 Google LLC."
+  license: "Creative Commons Attribution 4.0 International"
+}
+annotations {
+  key: "brand"
+  value: "Nintendo"
+}
+annotations {
+  key: "gtin"
+  value: "00039897685205"
+}
+annotations {
+  key: "sku"
+  value: "39897685205"
+}
+compatibilities {
+  name: "Gazebo"
+  version {
+    major: 11
+  }
+}
+categories {
+  first: "Toys"
+}

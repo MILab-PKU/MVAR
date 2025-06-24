@@ -1,0 +1,35 @@
+model {
+  file: "model.sdf"
+}
+name: "SORTING_TRAIN"
+description: "SORTING TRAIN\nShape and sort features enable this set to form a train which can be used as a pull toy."
+version: 1
+authors {
+  name: "Google"
+  email: "scanned-objects@google.com"
+}
+legal {
+  copyright: "Copyright 2020 Google LLC."
+  license: "Creative Commons Attribution 4.0 International"
+}
+annotations {
+  key: "brand"
+  value: "PlanToys"
+}
+annotations {
+  key: "mpn"
+  value: "5119"
+}
+annotations {
+  key: "sku"
+  value: "0511901"
+}
+compatibilities {
+  name: "Gazebo"
+  version {
+    major: 11
+  }
+}
+categories {
+  first: "Toys"
+}
