@@ -2,11 +2,17 @@
 
 <div align="center">
 
-[![arXiv](https://img.shields.io/badge/arXiv%20paper-2506.18527-b31b1b.svg)](https://arxiv.org/abs/2506.18527)&nbsp;
+[![arXiv](https://img.shields.io/badge/arXiv%20paper-2506.18527-b31b1b.svg)](https://arxiv.org/abs/2506.18527)&nbsp; 
 </div>
 
 > [JiaKui Hu](https://jkhu29.github.io/)\*, [Yuxiao Yang](https://yuxiaoyang23.github.io/)\*, [Jialun Liu](https://scholar.google.com/citations?user=OkMMP2AAAAAJ), [Jinbo Wu](https://scholar.google.com/citations?user=9OecN2sAAAAJ), [Chen Zhao](), [Yanye Lu](https://scholar.google.com/citations?user=WSFToOMAAAAJ)
 > <br>PKU, BaiduVis, THU<br>
+
+[blog (Chinese)](https://blog.jongkhu.com/article/mvar)
+
+🚀️🚀️ News:
+
+- 2025-06-26: MV-AR is accepted by ICCV 2025 !!!
 
 ## Introduction
 
@@ -75,3 +81,14 @@ This repository is heavily based on [LlamaGen](https://github.com/FoundationVisi
 For help or issues using this git, please feel free to submit a GitHub issue.
 
 For other communications related to this git, please contact `jkhu29@stu.pku.edu.cn`.
+
+### Citation
+
+```bibtex
+@inproceedings{hu2025mvar,
+  title={Auto-Regressively Generating Multi-View Consistent Images},
+  author={Hu, JiaKui and Yang, Yuxiao and Liu, Jialun and Wu, Jinbo and Zhao, Chen and Lu, Yanye},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  year={2025}
+}
+```
