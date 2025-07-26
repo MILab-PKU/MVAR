@@ -3,9 +3,9 @@
 <div align="center">
 
 [![arXiv](https://img.shields.io/badge/arXiv%20paper-2506.18527-b31b1b.svg)](https://arxiv.org/abs/2506.18527)&nbsp; 
-[![huggingface](https://img.shields.io/badge/huggingface%20model-Jiakui/MVAR-red.svg)]([https://huggingface.co/Jiakui/MV-AR])&nbsp; 
-[![wisemodel](https://img.shields.io/badge/wisemodel-Jiakui/MVAR-yellow.svg)]([https://www.wisemodel.cn/models/jkhu29/MV-AR/file])&nbsp; 
-[![blog (Chinese)](https://img.shields.io/badge/blog%20/%20Chinese-green.svg)]([https://blog.jongkhu.com/article/mvar])&nbsp; 
+[![huggingface](https://img.shields.io/badge/huggingface%20model-Jiakui/MVAR-red.svg)](https://huggingface.co/Jiakui/MV-AR)&nbsp; 
+[![wisemodel](https://img.shields.io/badge/wisemodel-Jiakui/MVAR-yellow.svg)](https://www.wisemodel.cn/models/jkhu29/MV-AR/file)&nbsp; 
+[![blog (Chinese)](https://img.shields.io/badge/blog%20/%20Chinese-green.svg)](https://blog.jongkhu.com/article/mvar)&nbsp; 
 
 </div>
 
