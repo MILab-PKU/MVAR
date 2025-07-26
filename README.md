@@ -3,16 +3,19 @@
 <div align="center">
 
 [![arXiv](https://img.shields.io/badge/arXiv%20paper-2506.18527-b31b1b.svg)](https://arxiv.org/abs/2506.18527)&nbsp; 
+[![huggingface](https://img.shields.io/badge/huggingface%20model-Jiakui/MVAR-red.svg)]([https://huggingface.co/Jiakui/MV-AR])&nbsp; 
+[![wisemodel](https://img.shields.io/badge/wisemodel-Jiakui/MVAR-yellow.svg)]([https://www.wisemodel.cn/models/jkhu29/MV-AR/file])&nbsp; 
+[![blog (Chinese)](https://img.shields.io/badge/blog%20/%20Chinese-green.svg)]([https://blog.jongkhu.com/article/mvar])&nbsp; 
+
 </div>
 
 > [JiaKui Hu](https://jkhu29.github.io/)\*, [Yuxiao Yang](https://yuxiaoyang23.github.io/)\*, [Jialun Liu](https://scholar.google.com/citations?user=OkMMP2AAAAAJ), [Jinbo Wu](https://scholar.google.com/citations?user=9OecN2sAAAAJ), [Chen Zhao](), [Yanye Lu](https://scholar.google.com/citations?user=WSFToOMAAAAJ)
 > <br>PKU, BaiduVis, THU<br>
 
-[blog (Chinese)](https://blog.jongkhu.com/article/mvar)
-
 🚀️🚀️ News:
 
 - 2025-06-26: MV-AR is accepted by ICCV 2025 !!!
+- 2025-07-26: The pretrained models of MV-AR are uploaded to [huggingface](https://huggingface.co/Jiakui/MV-AR) and [wisemodel](https://www.wisemodel.cn/models/jkhu29/MV-AR/file).
 
 ## Introduction
 
@@ -56,7 +59,7 @@ CUDA 12.4, Pytorch >= 2.4.0
 
 1. Please download [flan-t5-xl](https://huggingface.co/google/flan-t5-xl) in `./pretrained_models`;
 2. Please download [Cap3D_automated_Objaverse_full.csv](https://huggingface.co/datasets/tiange/Cap3D/blob/main/Cap3D_automated_Objaverse_full.csv) in `dataset/captions`;
-3. Please download models from [here](https://drive.google.com/drive/folders/1ubPgpTGw2x6LLqBIOln5I_NSEL28SzGI?usp=sharing), put them in `./pretrained_models`;
+3. Please download models from [huggingface](https://huggingface.co/Jiakui/MV-AR) or [wisemodel](https://www.wisemodel.cn/models/jkhu29/MV-AR/file), put them in `./pretrained_models`;
 4. Run:
 
 ```shell
@@ -76,7 +79,7 @@ Coming soon.
 
 ## Acknowledgement
 
-This repository is heavily based on [LlamaGen](https://github.com/FoundationVision/LlamaGen). We would like to thank the authors of these work for publicly releasing their code.
+This repository is heavily based on [LlamaGen](https://github.com/FoundationVision/LlamaGen). We would like to thank the authors of this work for publicly releasing their code.
 
 For help or issues using this git, please feel free to submit a GitHub issue.
 
